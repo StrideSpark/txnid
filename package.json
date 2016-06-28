@@ -1,0 +1,16 @@
+{
+  "name": "txnid",
+  "version": "1.0.0",
+  "description": "simple method to create a transactionid (random base36 string), fully typescript",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "prepublish": "tsc --declaration"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": "StrideSpark/txnid",
+  "devDependencies": {
+    "typescript": "^1.9.0-dev.20160624-1.0"
+  }
+}
